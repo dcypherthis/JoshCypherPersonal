@@ -4,25 +4,13 @@
   ************/
   
   #primary {
-    width: 50%;
+    width: 100%;
     float: left;
   }
   
   #secondary {
     width: 40%;
     float: right;
-  }
-  
-  /******************
-  Page: Portfolio
-  ******************/
-  
-  #gallery li {
-    width: 28.3333%;
-  }
-  
-  #gallery li:nth-child(3n + 1) {
-    clear:left;
   }
   
    /******************
@@ -32,6 +20,20 @@
   .profile-photo{
     float: left;
     margin: 0 5% 80px 0;
+  }
+
+  /******************
+  Page: Portfolio
+  ******************/
+  
+/*  #gallery li {
+    width: 90%;
+  }
+  
+  #gallery li:nth-child(1n + 1) {
+    clear:left;*/
+  /*}*/
+
 }
 
 @media screen and (min-width: 660px) {
@@ -69,5 +71,17 @@
     border-bottom: 5px solid #599a68;
     margin-bottom: 60px;
   }  
-    
+ 
+  /******************
+  Page: Portfolio
+  ******************/
+  
+  #gallery li {
+    width: 45%;
+  }
+  
+  #gallery li:nth-child(2n + 1) {
+    clear:left;
+  }
+
 }
