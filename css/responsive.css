@@ -26,13 +26,13 @@
   Page: Portfolio
   ******************/
   
-/*  #gallery li {
+  #gallery li {
     width: 90%;
   }
   
   #gallery li:nth-child(1n + 1) {
-    clear:left;*/
-  /*}*/
+    clear:left;
+  }
 
 }
 
